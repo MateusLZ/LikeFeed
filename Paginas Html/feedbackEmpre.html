@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,149 +9,150 @@
     <title>FeedBack</title>
     <link rel="stylesheet" href="../Paginas Css/feedbackStyle.css">
 </head>
+
 <body>
     <div class="main-container">
 
-                <div class="top-menu">
+        <div class="top-menu">
 
-                    <div class="menu-esquerda">
-                        <div class="inicio">
-                            <a href="inicioEmpre.html">Inicio</a>
-                        </div>
-                        <div class="feedback">
-                            <label for="">FeedBack</label>
-                        </div>
+            <div class="menu-esquerda">
+                <div class="inicio">
+                    <a href="inicioEmpre.html">Inicio</a>
+                </div>
+                <div class="feedback">
+                    <label for="">FeedBack</label>
+                </div>
 
+            </div>
+
+            <div class="menu-meio">
+                <div class="text">
+                    <h1 id="textOne">iLike</h1>
+                    <h1 style="color: black ;" id="textTwo">FeedBack</h1>
+                </div>
+            </div>
+
+            <div class="menu-direita">
+                <div class="name">
+                    <label id="Name-User" for="">Nome Pessoa</label>
+                </div>
+                <div class="exit">
+                    <a href="../index.html">Sair</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="conteudo">
+
+            <div class="conteudo-cabecalho">
+
+            </div>
+            <div class="meio-pagina">
+
+                <div id="janelaFeedbackLoguin" class="conteudo-meio">
+                    <div class="inicio-feedback">
+                        <h1>Bem-vindo</h1>
+                        <h2>Digite o ID do Funcionário e a data</h2>
                     </div>
 
-                    <div class="menu-meio">
-                        <div class="text">
-                            <h1 id="textOne">iLike</h1>
-                            <h1  style="color: black ;" id="textTwo">FeedBack</h1>
-                        </div>
+                    <div class="input-feedback">
+                        <input id="procuraID" class="procuraID" style="text-align: center" placeholder="ID do funcionário">
+                        <input type="date" id="txtData" name="data" style="text-align: center" class="caixa-texto">
+                        <button class="procura-button" onclick="procuraID()">Procurar</button>
                     </div>
 
-                    <div class="menu-direita">
-                        <div class="name">
-                            <label id="Name-User" for="">Nome Pessoa</label>
-                        </div>
-                        <div class="exit">
-                            <a href="../paginaIncial.html">Sair</a>
-                        </div>
+                    <div class="img-emoji">
+                        <h2 id="erro"></h2>
+
                     </div>
 
                 </div>
 
-                    <div class="conteudo">
+                <div id="janelaFeedback" class="conteudo-meio-feedback">
 
-                            <div class="conteudo-cabecalho">
-                                
-                            </div>
-                        <div class="meio-pagina">
+                    <div class="nameFunc">
+                        <h2 id="nome-func">Feedback Gabriel</h2>
+                    </div>
 
-                            <div id="janelaFeedbackLoguin" class="conteudo-meio">
-                                <div class="inicio-feedback">
-                                     <h1>Bem-vindo</h1>
-                                    <h2>Digite o ID do Funcionário e a data</h2>
-                                </div>
+                    <div class="categoriaDesempenho">
+                        <h3 id="categoria">Categoria: Comunicação</h3>
 
-                                <div class="input-feedback">
-                                <input id="procuraID" class="procuraID" style="text-align: center" placeholder="ID do funcionário" >
-                                <input type="date" id="txtData" name="data" style="text-align: center" class="caixa-texto" >
-                                <button class="procura-button" onclick="procuraID()">Procurar</button>
-                                </div>
+                    </div>
 
-                                 <div class="img-emoji">
-                                 <h2 id="erro"></h2>
-
-                                </div>
-
-                            </div>
-
-                            <div id="janelaFeedback" class="conteudo-meio-feedback">
-
-                                <div class="nameFunc">
-                                    <h2 id="nome-func">Feedback Gabriel</h2>
-                                </div>
-
-                                <div class="categoriaDesempenho">
-                                    <h3 id="categoria">Categoria: Comunicação</h3>
-
-                                </div>
-
-                                <div class="feedback-question">
-                                        <div class="quest">
-                                            <h3 id="texto-1">Sabe comunicar com clareza e empatia assuntos leves e difíceis de lidar?</h3>
-                                            <div>
-                                                <input type="radio" name="primeira" value="1" id="radio1"
-                                                class="radioUM">
-                                                <label for="radio1">Ruim</label>
-                                                <input type="radio" name="primeira" value="2.5" id="radio2.5" class="radioUM">
-                                                <label for="radio2.5">Medio</label>
-                                                <input type="radio" name="primeira" value="5" id="radio5" class="radioUM">
-                                                <label for="radio5">Bom</label>
-                                                <input type="radio" name="primeira" value="7.5" id="radio7.5" class="radioUM">
-                                                <label for="radio7.5">Otimo</label>
-                                                <input type="radio" name="primeira" value="10" id="radio10" class="radioUM">
-                                                <label for="radio10">Exelente</label>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="quest">
-                                            <h3 id="texto-2">Sabe dar e receber feedbacks de forma contínua?</h3>
-                                            <div>
-                                                <input type="radio" name="segunda" value="1" id="radio-segunda-1">
-                                                <label for="radio-segunda-1">Ruim</label>
-                                                <input type="radio" name="segunda" value="2.5" id="radio-segunda-2.5">
-                                                <label for="radio-segunda-2.5">Medio</label>
-                                                <input type="radio" name="segunda" value="5" id="radio-segunda-5">
-                                                <label for="radio-segunda-5">Bom</label>
-                                                <input type="radio" name="segunda" value="7.5" id="radio-segunda-7.5">
-                                                <label for="radio-segunda-7.5">Otimo</label>
-                                                <input type="radio" name="segunda" value="10" id="radio-segunda-10">
-                                                <label for="radio-segunda-10">Exelente</label>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="quest">
-                                            <h3 id="texto-3">Respeita opiniões diferentes?</h3>
-                                            <div>
-                                                <input type="radio" name="3" value="1" id="radio-3-1">
-                                                <label for="radio-3-1">Ruim</label>
-                                                <input type="radio" name="3" value="2.5" id="radio-3-2.5">
-                                                <label for="radio-3-2.5">Medio</label>
-                                                <input type="radio" name="3" value="5" id="radio-3-5">
-                                                <label for="radio-3-5">Bom</label>
-                                                <input type="radio" name="3" value="7.5" id="radio-3-7.5">
-                                                <label for="radio-3-7.5">Otimo</label>
-                                                <input type="radio" name="3" value="10" id="radio-3-10">
-                                                <label for="radio-3-10">Exelente</label>
-                                            </div>
-
-                                        </div>
-                                      
-                                </div>
-
-                                <div class="btn-enviar">
-
-                                    <input type="button" onclick="Salvar()" value="Enviar">
-                                </div>
-
+                    <div class="feedback-question">
+                        <div class="quest">
+                            <h3 id="texto-1">Sabe comunicar com clareza e empatia assuntos leves e difíceis de lidar?</h3>
+                            <div>
+                                <input type="radio" name="primeira" value="1" id="radio1" class="radioUM">
+                                <label for="radio1">Ruim</label>
+                                <input type="radio" name="primeira" value="2.5" id="radio2.5" class="radioUM">
+                                <label for="radio2.5">Medio</label>
+                                <input type="radio" name="primeira" value="5" id="radio5" class="radioUM">
+                                <label for="radio5">Bom</label>
+                                <input type="radio" name="primeira" value="7.5" id="radio7.5" class="radioUM">
+                                <label for="radio7.5">Otimo</label>
+                                <input type="radio" name="primeira" value="10" id="radio10" class="radioUM">
+                                <label for="radio10">Exelente</label>
                             </div>
 
                         </div>
 
-                            <div class="conteudo-rodape">
-
+                        <div class="quest">
+                            <h3 id="texto-2">Sabe dar e receber feedbacks de forma contínua?</h3>
+                            <div>
+                                <input type="radio" name="segunda" value="1" id="radio-segunda-1">
+                                <label for="radio-segunda-1">Ruim</label>
+                                <input type="radio" name="segunda" value="2.5" id="radio-segunda-2.5">
+                                <label for="radio-segunda-2.5">Medio</label>
+                                <input type="radio" name="segunda" value="5" id="radio-segunda-5">
+                                <label for="radio-segunda-5">Bom</label>
+                                <input type="radio" name="segunda" value="7.5" id="radio-segunda-7.5">
+                                <label for="radio-segunda-7.5">Otimo</label>
+                                <input type="radio" name="segunda" value="10" id="radio-segunda-10">
+                                <label for="radio-segunda-10">Exelente</label>
                             </div>
+
+                        </div>
+
+                        <div class="quest">
+                            <h3 id="texto-3">Respeita opiniões diferentes?</h3>
+                            <div>
+                                <input type="radio" name="3" value="1" id="radio-3-1">
+                                <label for="radio-3-1">Ruim</label>
+                                <input type="radio" name="3" value="2.5" id="radio-3-2.5">
+                                <label for="radio-3-2.5">Medio</label>
+                                <input type="radio" name="3" value="5" id="radio-3-5">
+                                <label for="radio-3-5">Bom</label>
+                                <input type="radio" name="3" value="7.5" id="radio-3-7.5">
+                                <label for="radio-3-7.5">Otimo</label>
+                                <input type="radio" name="3" value="10" id="radio-3-10">
+                                <label for="radio-3-10">Exelente</label>
+                            </div>
+
+                        </div>
 
                     </div>
 
-                  
+                    <div class="btn-enviar">
+
+                        <input type="button" onclick="Salvar()" value="Enviar">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="conteudo-rodape">
+
+            </div>
+
+        </div>
+
+
     </div>
 
     <script src="../Js/JsFeedback.js"></script>
 </body>
+
 </html>
