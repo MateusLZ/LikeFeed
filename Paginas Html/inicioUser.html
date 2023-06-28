@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../Paginas Css/inicioUser.css">
+</head>
+
+<body onload="Desempenho()">
+
+ 
+<body>
+
+    <div class="main-container">
+
+        <div class="top-menu">
+
+            <div class="menu-esquerda">
+                <div class="inicio">
+                    <label for="">Inicio</label>
+                </div> 
+            </div>
+
+            <div class="menu-meio">
+                <div class="text">
+                    <h1 id="textOne">iLike</h1>
+                    <h1 id="textTwo">FeedBack</h1>
+                </div>
+            </div>
+
+            <div class="menu-direita">
+                <div class="name">
+                </div>
+                <div class="exit">
+                    <a href="../paginaIncial.html">Sair</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="conteudo">
+
+
+            <div class="conteudo-esquerda">
+                <div class="class-feedBack">
+                    <div class="class-feedBack-top">
+                        <div class="img-perfil">
+                            <img src="../img/perfil.png" alt="selecione uma imagem" id="imgPhoto">
+                        </div>
+                        <div>
+                            <input type="file" id="filImg" name="filImg" accept="image/*">
+                            <h2 id="nome-Func"></h2>
+                        </div>
+                    </div>
+                    <div class="class-feedBack-meio">
+                        <div class="dados-user">
+                            <div class="title-dados"> 
+                                <h3>Dados</h3>
+                            </div>
+                            <label for="" id="dadosCPF">CPF:</label>
+                            <br>
+                            <label for="" id="dadosEmail">Email:</label>
+                            <br>
+                            <label for="" id="dadosTelefone">Telefone:</label>
+
+                        </div>
+                        <div class="desempenho-user">
+                            <div class="titleDese"><h3>Desempenho</h3> </div>
+                            <div class="classifica"> <h2 id="classNumber" ></h2></div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="kiko">
+                        <img id="imgEmoji" src="" alt="">
+
+                    </div>
+                    <div class="class-feedBack-bot">
+                        <button class="btnAbreModal" onclick="AbreModal()">Trocar Senha</button>
+                    </div>
+
+                            
+                </div>
+            </div>
+
+            <div class="conteudo-direita">
+                
+                <h1 id="analise">Análise</h1>
+
+                <label for="">Liderança</label>
+                <div class="barra" id="barraUM">
+                    <div></div>
+                </div>
+
+                <label for="">Comprometimento</label>
+                <div class="barraDois" id="barraDois">
+                    <div></div>
+                </div>
+
+                <label for="">Comunicação</label>
+                <div class="barraTres" id="barraTres">
+                    <div></div>
+                </div>
+
+                <label for="">Proatividade</label>
+                <div class="barraQuatro" id="barraQuatro">
+                    <div></div>
+                </div>
+
+                <label for="">Trabalho Em Equipe</label>
+                <div class="barraCinco" id="barraCinco">
+                    <div></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="vis-cad" class="janelaSenha">
+            <div class="conteudo-senha">
+
+                <div class="cabecalho-senha">
+                    <span class="cabecalho-senha-fechar" id="vis-cad" onclick="fecharCadastro()">X</span>
+                </div>
+
+                <div class="corpo-senha">
+                    <div class="inptop-corpo-senha">
+                        <input id="newSenha" style="text-align: center" placeholder="Nova Senha">
+                    </div>
+                    
+                </div>
+
+                <div class="rodape-senha">
+                        <button class="btn-enviar" id="btnSenha" onclick="TrocaSenha()">Enviar</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="../Js/JsUser.js"></script>
+</body>
+
+</html>

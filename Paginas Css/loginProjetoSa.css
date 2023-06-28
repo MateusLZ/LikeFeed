@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+body {
+    margin: 0px;
+}
+
+body {
+    background-image: url(../img/images.jfif);
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.balloon {
+
+    width: 500px;
+    height: 260px;
+    margin-bottom: 30px;
+    border-radius: 200px;
+    background: white;
+    background-image: url(../img/8\ smart\ ways\ to\ collect\ customer\ feedback\ [infographic].jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+
+}
+
+.text {
+
+    width: 1000px;
+    height: 300px;
+}
+
+h1 {
+    font-family: 'K2D', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'K2D', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(2px, -28px);
+}
+
+#textOne {
+    color: red;
+}
+ 
+#textTwo {
+    margin: 0px;
+    padding: 0px;
+    height: 10%;
+}
+
+.box-login {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rigth-login {
+    width: 400px;
+    height: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: #00B6CC;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+     z-index: 1;
+     overflow:visible;
+}
+#loguinDiv,#loguinDivEmpre{
+    cursor: pointer;
+    color: white;
+}
+#loguinDiv:hover{
+    color: #b6ebf1;
+}
+#loguinDivEmpre:hover{
+    color: #b6ebf1;
+}
+.rigth-login-user{
+    width: 400px;
+    height: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: #00B6CC;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+     z-index: 0;
+     overflow:hidden;
+}
+
+.box-rigth {
+    width: 350px;
+    height: 450px;
+}
+
+.box-top {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.linha {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    border-radius: 105px;
+    transform: translate(-30px, -32px);
+}
+
+
+.box-center {
+    margin: 0px;
+    padding: 0px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 70%;
+    height: 16%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+}
+
+button {
+    margin-top: 30px;
+    width: 30%;
+    height: 15%;
+    border: #00B6CC;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #00B6CC;
+}
+
+
+button:hover {
+    color: white;
+    background-color: #98e3ec;
+}
+
+.option a:hover {
+    color: #b6ebf1;
+}
+
+.icon a:hover {
+
+    color: #b6ebf1;
+}
+
+.box-bottom {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.option {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option a {
+    text-decoration: none;
+    margin-bottom: 9px;
+    font-size: 16px;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+.icon a {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+

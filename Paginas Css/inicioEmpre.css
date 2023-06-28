@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+html {
+
+    height: 100%;
+
+}
+
+body {
+
+    height: 100%;
+    margin: 0;
+
+}
+
+.main-container {
+
+    height: 100%;
+
+}
+
+.top-menu, a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B6CC;
+    font-size: 18px;
+    color: white;
+    font-family: 'K2D', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.menu-esquerda {
+    width: 25%;
+    display: flex;
+}
+
+
+.inicio {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feedback {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu-meio {
+    width: 50%;
+}
+
+h1 {
+    font-family: 'K2D', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textOne {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+
+#textTwo {
+    margin: 0px;
+    padding: 0px;
+    height: 10%;
+    font-size: 35px;
+    color: black;
+
+}
+
+
+
+
+.menu-direita {
+    width: 25%;
+    display: flex;
+}
+
+.name {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exit {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.conteudo {
+    height: 90.5%;
+    background-color: #D9D9D9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo-conteudo {
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.topo-direita {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btn-cadastro {
+    width: 150px;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.topo-esquerda {
+    width: 75%;
+}
+
+
+.janelaRelatorio {
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    display: none;
+}
+
+.conteudo-relatorio {
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+}
+
+.cabecalho-relatorio {
+    padding: 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    background-color: #00b8cc;
+}
+
+.cabecalho-relatorio .titulo {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0;
+
+}
+
+.cabecalho-relatorio .cabecalho-relatorio-fechar {
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.corpo-relatorio {
+    margin-top: 10px;
+    padding: 1px 8px 8px 8px;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+} 
+
+.tabela2 {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    background-color: #f0f0f0;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px 3px rgb(50, 50, 50, 0.77);
+    -moz-box-shadow: 3px 3px 3px 3px rgb(50, 50, 50, 0.77);
+    box-shadow: 3px 3px 3px 3px rgb(50, 50, 50, 0.77);
+
+}
+
+.tabela2 table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+
+}
+
+.tabela2 table tr td {
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .25px;
+    text-align: center;
+    padding: 0 10px;
+
+
+}
+
+.tabela2 table tr td {
+    vertical-align: middle;
+    width: 20%;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    border-bottom: 1px solid #000000;
+
+}
+
+.janelaCadastro {
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    display: none;
+}
+
+.conteudo-cadastro {
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 700px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.cabecalho-cadastro {
+    padding: 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #eee 1px;
+    height: 25%;
+    background-color: #00B6CC;
+}
+
+.cabecalho-cadastro .titulo {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0;
+
+}
+
+.cabecalho-cadastro .cabecalho-cadastro-fechar {
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.corpo-cadastro {
+    padding: 1px 8px 8px 8px;
+    display: flex;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inptop-corpo-cadastro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.inptop-corpo-cadastro input {
+    width: 275px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.inpbot-corpo-cadastro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.inpbot-corpo-cadastro input {
+    width: 275px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.rodape-cadastro {
+    border-top: solid #eee 1px;
+    padding: 8px;
+    height: 25%;
+
+}
+
+.btn-enviar {
+    width: 72px;
+    height: 25px;
+    border: #00B6CC;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00B6CC;
+}
+
+.rodape-cadastro button:hover {
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.tabela-conteudo {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tabela {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    background-color: #00B6CC;
+    padding: 2px 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px 3px rgb(50, 50, 50, 0.77);
+    -moz-box-shadow: 3px 3px 3px 3px rgb(50, 50, 50, 0.77);
+    box-shadow: 3px 3px 3px 3px rgb(50, 50, 50, 0.77);
+
+}
+
+.tabela table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+
+}
+
+.tabela table tr td {
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .25px;
+    text-align: center;
+    padding: 0 10px;
+
+
+}
+
+.tabela table tr td {
+    vertical-align: middle;
+    width: 20%;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    border-bottom: 1px solid #000000;
+
+}
